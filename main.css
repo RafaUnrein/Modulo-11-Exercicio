@@ -1,0 +1,410 @@
+@media screen{
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    html{
+        overflow-x: hidden;
+    }
+    
+    header{
+        position: sticky;
+        top: 0;
+        left: 0;
+        z-index: 1;
+    }
+    
+    header nav li {
+        display: inline;
+        margin-left: 16px;
+        font-size: 18px;
+        font-style: italic;
+        font-weight: bold;
+    }
+    
+    header nav li a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    .contanier{
+        max-width: 1024px;
+        width: 100%;
+        margin: 0 auto;     
+    }
+    
+    .contanier h1{
+        cursor: pointer;  
+        margin-bottom: 20px; 
+        color: white;     
+    }
+    
+    .contanier h1{
+        cursor: pointer;  
+        margin-bottom: 20px; 
+        color: white;      
+    }
+    
+    header .contanier{
+        display: flex;
+        list-style: none;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    header{
+        padding: 16px 0 0;
+        border-top: 2px solid dodgerblue;
+        border-bottom: 3px solid dodgerblue;
+        background-color: dodgerblue;
+        margin-bottom: 56px;
+    }
+    
+    footer{
+        padding: 40px;    
+        background-color: dodgerblue;
+        margin-top: 56px;
+        color: white;
+        align-content: center;
+        text-align: center;
+        font-weight: bolder;
+    }
+    
+    .noticia img{
+        max-width: 100%;
+        margin-top: 56px;    
+    }
+    
+    .noticia p{
+        margin-left: 32px;   
+        font-style: italic;
+    }
+    
+    .destaque .noticia h2{    
+        font-size: 32px;
+        padding-bottom: 16px;    
+        border-bottom: 3px solid dodgerblue;
+        margin-left: 32px;
+        color: dodgerblue;
+        font-style: italic;
+    }
+    
+    
+    .destaque .noticia{
+        display: flex;
+        font-size: 24px;  
+        text-align: justify;  
+    }
+    
+    .destaque .noticia img:hover{
+        box-shadow:0 2px 2px #000;
+    }
+    
+    .destaque .noticia h2:hover{
+        cursor: pointer;  
+    }
+    
+    .destaque .noticia img{
+        margin-right: 26px;
+        width: 500px;
+        height: 400px;
+        margin-bottom: 100px;
+    }
+    
+    .destaque .noticia h3{
+        font-size: 30px;
+        text-align:left;
+        color: black;
+    }
+    
+    .novidades{
+        margin-right: 16px;
+    }
+    
+    .novidades .noticia img{
+        width: 100%;  
+    }
+    
+    section h2{
+        margin-top: 48px;
+        margin-bottom: 24px;
+        color: dodgerblue; 
+        border-bottom: 3px solid dodgerblue;   
+        padding-bottom: 16px;
+    }
+    
+    .conteudo .destaque{
+        margin-left: 16px;
+    
+    }
+    
+    .destaque-secundario{
+        display: grid;
+        grid-template-columns: 24% 24% 24% 24%;   
+        column-gap: 1.5%;        
+    }
+    
+    .destaque-secundario img{
+        height: 50%;
+        width: 100%;
+    }
+    
+    .destaque-secundario h2{
+        font-size: 26px; 
+        font-style: italic;
+        color: black;
+        border-bottom: none;
+        margin-bottom: 0px;
+        margin-top: 6px;
+    }
+    
+    .destaque-secundario a{
+        color: black;
+        text-decoration: none;
+        font-size: 14px;
+    }
+    
+    .destaque-secundario .noticia a:hover{
+        text-decoration: underline;
+        box-shadow:0 2px 2px #000;
+    }
+    
+    .destaque-secundario button{
+        margin-top: 10px;
+        font-weight: bold;
+        color: white;
+        background-color: deepskyblue;    
+        font-size: 14px;
+        padding: 8px;
+        border-radius: 6px;
+        border-color: deepskyblue;
+        cursor: pointer;
+    }   
+
+}
+
+@media screen and (max-width: 767px) {
+
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+
+    header nav li {
+        padding: 2px;
+        display: flex;
+        margin-left: 16px;
+        font-size: 18px;
+        font-style: italic;
+        font-weight: bold;
+    }
+    
+    header nav li a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    header .contanier{
+        display: flex;
+        list-style: none;
+        align-items: center;
+        justify-content: space-between;        
+    }
+    
+    header{
+        padding: 16px 0 0;
+        border-top: 2px solid dodgerblue;
+        border-bottom: 1px solid darkblue;
+        background-color: dodgerblue;
+        margin-bottom: 56px;            
+    }    
+
+.destaque .noticia{
+    display: block;      
+}
+
+.contanier{
+    max-width: 90%;
+    margin-top: 24px;
+}
+
+header{
+    padding: 16px 16px;
+    background-color: dodgerblue;
+    margin-bottom: 56px;
+}
+
+.destaque .noticia p{
+    display: block;
+    font-size: 22px;
+    text-decoration: none; 
+    margin-left: 6px;
+    margin-right: 6px;  
+    margin-bottom: 100px;  
+}
+
+.destaque .noticia img{    
+    margin-bottom: 10px;
+    margin-top: 0px;
+    width: 300px;
+    height: 250px;
+    width: 100%;    
+}
+
+.destaque .noticia h2 {
+    font-size: 24px;
+    padding-bottom: 16px;
+    margin-left: 0px;
+    border-bottom: 3px solid dodgerblue;
+    color: dodgerblue;
+    font-style: italic;
+}
+
+.destaque-secundario .noticia{
+    margin-top: 0px;
+    
+}
+
+.destaque-secundario .noticia img{
+    margin-left: 4px;    
+    margin-top: 26px; 
+    height: 40%;
+    width: 100%;       
+}
+
+.destaque-secundario{
+    display: grid;
+    grid-template-columns: 45% 45%;   
+    column-gap: 8%;         
+}
+
+.destaque-secundario button{
+    margin-top: 10px;
+    font-weight: bold;
+    color: white;
+    background-color: deepskyblue;    
+    font-size: 14px;
+    padding: 8px;
+    border-radius: 6px;
+    border-color: deepskyblue;
+    cursor: pointer;
+    margin-bottom: 56px;
+}
+
+}
+
+@media screen and (max-width: 1024px) {
+
+    header nav li {
+        padding: 2px;
+        display: flex;
+        margin-left: 16px;
+        font-size: 18px;
+        font-style: italic;
+        font-weight: bold;
+    }
+    
+    header nav li a {
+        color: white;
+        text-decoration: none;
+    }
+    
+    header .contanier{
+        display: flex;
+        list-style: none;
+        align-items: center;
+        justify-content: space-between;
+    }
+    
+    header{
+        padding: 16px 0 0;
+        border-top: 2px solid dodgerblue;
+        border-bottom: 1px solid darkblue;
+        background-color: dodgerblue;
+        margin-bottom: 56px;
+    }    
+
+.destaque .noticia{
+    display: block;      
+}
+
+.contanier{
+    max-width: 90%;
+    margin-top: 24px;
+}
+
+header{
+    padding: 16px 16px;
+    background-color: dodgerblue;
+    margin-bottom: 56px;
+}
+
+.destaque .noticia p{
+    display: block;
+    font-size: 22px;
+    text-decoration: none; 
+    margin-left: 6px;
+    margin-right: 6px;  
+    margin-bottom: 100px;  
+}
+
+.destaque .noticia img{    
+    margin-bottom: 10px;
+    margin-top: 0px;
+    width: 300px;
+    height: 250px;
+    width: 100%;    
+}
+
+.destaque .noticia h2 {
+    font-size: 24px;
+    padding-bottom: 16px;
+    margin-left: 0px;
+    border-bottom: 3px solid dodgerblue;
+    color: dodgerblue;
+    font-style: italic;
+}
+
+.destaque-secundario .noticia{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+}
+
+.destaque-secundario article{
+    padding-bottom: 0px;
+}
+
+.destaque-secundario .noticia img{
+    margin-left: 4px;    
+    margin-top: 26px; 
+    height: 40%;
+    width: 100%;       
+}
+
+.destaque-secundario{
+    display: grid;
+    grid-template-columns: 45% 45%;   
+    column-gap: 8%;         
+}
+
+.destaque-secundario button{
+    margin-top: 10px;
+    font-weight: bold;
+    color: white;
+    background-color: deepskyblue;    
+    font-size: 14px;
+    padding: 8px;
+    border-radius: 6px;
+    border-color: deepskyblue;
+    cursor: pointer;
+    margin-bottom: 56px;
+}
+
+}
